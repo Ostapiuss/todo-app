@@ -11,6 +11,7 @@ export default defineConfig({
       '@assets': '/src/assets',
       '@pages': '/src/pages',
       '@components': '/src/components',
+      '@interfaces': '/src/interfaces',
       '@services': '/src/services',
       '@hooks': '/src/hooks',
       '@shared': '/src/shared',

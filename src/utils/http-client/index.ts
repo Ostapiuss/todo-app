@@ -1,5 +1,5 @@
 import axios, { AxiosInstance, AxiosRequestConfig, AxiosResponse } from 'axios';
-import { BASE_API_URL } from 'src/shared/constants/common';
+import { BASE_API_DEV_URL } from '@shared/constants/common';
 
 const defaultConfiguration: AxiosRequestConfig = {
   responseType: 'json',
@@ -14,7 +14,7 @@ const defaultConfiguration: AxiosRequestConfig = {
 
 const axiosInstance: AxiosInstance = axios.create({
   ...defaultConfiguration,
-  baseURL: BASE_API_URL,
+  baseURL: BASE_API_DEV_URL,
 });
 
 const setHeader = (token: string) => {
