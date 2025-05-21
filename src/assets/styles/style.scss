@@ -1,0 +1,34 @@
+@use '_normalize';
+@use '_colors';
+@use '_fonts';
+
+
+:root {
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-text-size-adjust: 100%;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+head {
+  font-family: 'Inter', sans-serif;
+  // color: #24252C;
+}
+
+body {
+  margin: 0;
+}
+
+#my-vault {
+  height: 100vh;
+  width: 100vw;
+}
+
+a {
+  text-decoration: none;
+}

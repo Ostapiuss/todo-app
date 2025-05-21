@@ -11,6 +11,7 @@ export default [
       'dist/**/*',
       'build/**/*',
       'vite.config.ts',
+      'styled.d.ts',
       '.next/**/*',
       'coverage/**/*',
       '*.min.*',

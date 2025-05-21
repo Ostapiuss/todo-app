@@ -1,13 +1,9 @@
-import { Layout } from '@components/layout';
+import { AppRoutes } from '@components/routes';
 
 import './App.scss';
 
 function App() {
-  return (
-    <div className="app">
-      <Layout />
-    </div>
-  );
+  return <AppRoutes></AppRoutes>;
 }
 
 export default App;

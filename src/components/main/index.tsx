@@ -1,3 +1,11 @@
+import { Outlet } from 'react-router';
+
+import './style.scss';
+
 export default function Main() {
-  return <div>Main</div>;
+  return (
+    <main className="main">
+      <Outlet />
+    </main>
+  );
 }

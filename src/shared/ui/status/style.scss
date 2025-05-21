@@ -1,0 +1,12 @@
+.status {
+  padding: 5px 12px;
+  border-radius: 25px;
+  font-weight: 700;
+
+  text-transform: capitalize;
+
+  &.to-do {
+    background-color: #e3f2ff;
+    color: #0087ff;
+  }
+}

@@ -1,0 +1,23 @@
+.task-item {
+  background-color: white;
+  border-radius: 16px;
+
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+
+  padding: 12px 20px;
+
+  &__title {
+    color: #6E6A7C;
+  }
+
+  &__text {
+    font-weight: 500;
+  }
+
+  &__interaction {
+    display: flex;
+    justify-content: space-between;
+  }
+}
